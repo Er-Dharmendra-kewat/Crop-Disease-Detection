@@ -10,8 +10,7 @@ AI Engine
         <!-- For demo purpose -->
         <div class="row mb-5 text-center text-white">
             <div class="col-lg-10 mx-auto">
-                <h1 class="display-4" style="padding-top: 2%;font-weight: 400;color: rgb(4, 54, 4);"><b>🍀AI
-                        Engine🍀</b></h1>
+                <h1 class="display-4" style="padding-top: 2%;font-weight: 400;color: rgb(4, 54, 4);"><b>🍀AI Crops Disease Detection🍀</b></h1>
                 <p class="lead" style="font-weight: 500;color: black;">Let AI Engine Will Help You To Detect Disease</p>
             </div>
         </div>
@@ -32,9 +31,12 @@ AI Engine
                 </div>
             </div>
             <div class="col mx-auto">
-                <div class="p-5 bg-white shadow rounded-lg" style="height: 95%;"><img
-                        src="https://www.pngjoy.com/pngl/250/4840262_plants-png-indoors-tropical-plant-png-hd-png.png "
-                        height="300" alt="" width="200" class="d-block mx-auto mb-4 rounded-pill">
+                <div class="p-5 bg-white shadow rounded-lg" style="height: 95%;">
+                    <!-- <img src="{{ url_for('static', filename='demo_images/paddy.jpg') }}" height="300" alt="" width="200"
+                        class="d-block mx-auto mb-4 rounded-pill"> -->
+                    <img src="{{ url_for('static', filename='demo_images/paddy.jpg') }}"
+                        class="img-fluid d-block mx-auto mb-3 rounded-circle shadow"
+                        style="width: 250px; height: 250px; object-fit: cover;">
 
                     <!-- Default bootstrap file upload-->
 
@@ -168,7 +170,6 @@ AI Engine
         }
         return new Blob([uintArray], { type: 'image/jpeg' });
     }
-
     // Set up the "Choose File" input to trigger when the image is captured
     document.getElementById('actual-btn').addEventListener('click', function () {
         // Use the captured image file as the input file for form submission

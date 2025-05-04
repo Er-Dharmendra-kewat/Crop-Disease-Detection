@@ -1,0 +1,61 @@
+
+{% extends "pages/layout.html" %}
+
+{% block content %}
+
+
+   <!-- services -->
+   <div class="services">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+             <div class="titlepage text_align_left">
+                <span>What We Do</span>
+                <h2>SERVICES WE OFFER</h2>
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-md-4">
+             <div class="services_box_main">
+                <div class="services_box text_align_left">
+                   <figure><img src="/static/images/service1.jpg" alt="#" /></figure>
+                   <div class="veget">
+                      <h3>Vegetables<br>Information</h3>
+                      <p>Click here to know about the vegetables informations like plantation,harvesting and medication</p>
+                   </div>
+                </div>
+                <a class="read_more" href="{{ url_for('vegetable_info') }}">Read More</a>
+             </div>
+          </div>
+          <div class="col-md-4">
+             <div class="services_box_main">
+                <div class="services_box text_align_left">
+                   <figure><img src="/static/images/service2.jpg" alt="#" /></figure>
+                   <div class="veget">
+                      <h3>CROPS<br>INFORMATION</h3>
+                      <p>Click here to know about the crops information like plantation,harvesting times and prevention from diseases.</p>
+                   </div>
+                </div>
+                <a class="read_more" href="{{ url_for('crop_information') }}">Read More</a>
+
+             </div>
+          </div>
+          <div class="col-md-4">
+             <div class="services_box_main">
+                <div class="services_box text_align_left">
+                   <figure><img src="/static/images/disease_img.jpg" style=" height:339px;" alt="#" /></figure>
+                   <div class="veget">
+                      <h3>DISEASES<br>INFORMATION</h3>
+                      <p>Click here to know about various plants diseases and its identification,treating and prevention method</p>
+                   </div>
+                </div>
+                <a class="read_more" href="{{ url_for('disease_infomation') }}">Read More</a>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ <!-- end services -->
+
+ {% endblock %}

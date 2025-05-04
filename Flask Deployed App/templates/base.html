@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/bttn.css/0.2.4/bttn.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+
 
     <title> {% block pagetitle %}
 
@@ -126,6 +129,13 @@
             color: #aaa;
             margin-bottom: 0;
         }
+               
+    .copyright {
+         font-size: 20px; /* Adjust the size here */
+     }
+
+
+
     </style>
 </head>
 
@@ -137,41 +147,56 @@
         </button> -->
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
+          
+               
+               <!-- <li class="navbar-brand active">
+                    <a class="nav-link" href="{{ url_for('ai_engine_page') }}" style="color: white;">Home</a>
+                </li> -->
+                
                 <li class="navbar-brand active">
-                    <a class="nav-link" href="/" style="color: white;">Home</a>
+                    <a class="nav-link" href="{{ url_for('product') }}" style="color: white;">Product</a>
                 </li>
-                <li class="navbar-brand active">
-                    <a class="nav-link" href="/index" style="color: white;">AI Engine</a>
-                </li>
+                
+                <!--<li class="navbar-brand active">
+                    <a class="nav-link" href="{{ url_for('ai_engine_page') }}" style="color: white;">AI Engine</a>
+                </li> -->
+                
                 <li class="navbar-brand">
-                    <a class="nav-link" href="/market" style="color: white;">Supplements</a>
+                    <a class="nav-link" href="{{ url_for('market') }}" style="color: white;">Supplements</a>
                 </li>
-                <li class="navbar-brand">
-                    <a class="nav-link" href="/contact" style="color: white;">Contact-Us</a>
-                </li>
+                
+
             </ul>
         </div>
+        
     </nav>
     {% block body %}
 
     {% endblock body %}
+
+
+
+    
     <div class="footer-basic">
         <footer>
             <center>
             <div style="padding: 5;">
-                <a target="_blank" href='mailto:krsikx@gmail.com'><img src="https://image.flaticon.com/icons/png/512/281/281769.png" height="40" width="40"></a>&nbsp
-                <a target="_blank" href="https://www.instagram.com/krsikx_india/"><img src="https://image.flaticon.com/icons/png/512/174/174855.png" height="40" width="40"></a>&nbsp
-                <a target="_blank"href="https://www.linkedin.com/company/krsikx-india-llp/"><img src="https://image.flaticon.com/icons/png/512/174/174857.png" height="40" width="40"></a>&nbsp
+
+                <a href="https://www.linkedin.com/in/dharmendra-kewat/" target="_blank"> <i class="fa-brands fa-linkedin" style="font-size: 40px; margin: 10px; color: #0077b5;"></i></a>&nbsp
+                <a href="https://gmail.com"  target="_blank"> <i class="fas fa-envelope"  style="font-size: 40px;color: #db4437;"></i></a>&nbsp
+                <a href="https://github.com/Er-dharmendra-kewat" target="_blank"><i class="fab fa-github" style="font-size: 40px;color: #000000;"></i></a>&nbsp
             </div>
             </center>
             <br>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="/">Home</a></li>
-                <li class="list-inline-item"><a target="_blank" href="https://www.krsikx.com/">Services</a></li>
-                <li class="list-inline-item"><a target="_blank" href="https://www.krsikx.com/copy-of-solutions">About</a></li>
+                <li class="list-inline-item"><a target="_blank" href="/services">Services</a></li>
+                <li class="list-inline-item"><a target="_blank" href="/about">About</a></li>
                 <li class="list-inline-item laptop"><a href="/index">AI Engine</a></li>
             </ul>
-            <p class="copyright">Created by Manthan Bhikadiya & Krishna Baldaniya</p>
+            
+            <p class="copyright" style="font-size: 20px;">Created by @CodePionears</p>
+
         </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
