@@ -39,7 +39,11 @@
 
 ## ⭐Snippet of Web App :
 #### Main page
+<!-- <img src = "static/demo_images/1.png" > <br> -->
+<!-- ![Main Page](static/demo_images/paddy.jpg) -->
+
 <img src = "static/demo_images/1.png" > <br>
+
 #### AI Engine 
 <img src = "static/demo_images/2.png"> <br>
 #### Results Page 
