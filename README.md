@@ -6,6 +6,9 @@
 * Create a Python Virtual Environment & Activate Virtual Environment [Link](https://docs.python.org/3/tutorial/venv.html)
 * Install all the dependencies using below command
     `pip install -r requirements.txt`
+    or
+    pip install Flask Pillow torchvision torch pandas
+
 * Go to the `Flask Deployed App` folder.
 * Download the pre-trained model file `plant_disease_model_1.pt` from [here](https://drive.google.com/drive/folders/1ewJWAiduGuld_9oGSrTuLumg9y62qS6A?usp=share_link)
 * Add the downloaded file in `Flask Deployed App` folder.
@@ -36,12 +39,12 @@
 
 ## ⭐Snippet of Web App :
 #### Main page
-<img src = "demo_images/1.png" > <br>
+<img src = "static/demo_images/1.png" > <br>
 #### AI Engine 
-<img src = "demo_images/2.png"> <br>
+<img src = "static/demo_images/2.png"> <br>
 #### Results Page 
-<img src = "demo_images/3.png"> <br>
+<img src = "static/demo_images/3.png"> <br>
 #### Supplements/Fertilizer  Store
-<img src = "demo_images/4.JPG"> <br>
+<img src = "static/demo_images/4.JPG"> <br>
 #### Contact Us 
-<img src = "demo_images/5.png"> <br><br>
+<img src = "static/demo_images/5.png"> <br><br>
