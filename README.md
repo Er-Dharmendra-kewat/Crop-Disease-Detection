@@ -39,14 +39,12 @@
 
 ## ⭐Snippet of Web App :
 #### Main page
-
-<img src = "static/demo_images/1.png" > <br>
-
+<img src = "Snippet_of_pages/1.png" > <br>
 #### AI Engine 
-<img src = "static/demo_images/2.png"> <br>
+<img src = "Snippet_of_pages/2.png"> <br>
 #### Results Page 
-<img src = "static/demo_images/3.png"> <br>
+<img src = "Snippet_of_pages/3.png"> <br>
 #### Supplements/Fertilizer  Store
-<img src = "static/demo_images/4.JPG"> <br>
+<img src = "Snippet_of_pages/4.JPG"> <br>
 #### Contact Us 
-<img src = "static/demo_images/5.png"> <br><br>
+<img src = "Snippet_of_pages/5.png"> <br><br>
