@@ -53,4 +53,4 @@
 #### Blog Page 
 <img src = "Snippet_of_pages/blog_page.png"> <br><br>
 #### About Page 
-<img src = "Snippet_of_pages/About_page.png"> <br><br>
+<img src = "Snippet_of_pages/about_page.png"> <br><br>
